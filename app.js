@@ -23,7 +23,7 @@ function mainFunc(main) {
 let count = 0;
 
 form.addEventListener('input', (e) => {
-    if (randomWord == input.value) {
+    if (randomWord == input.value.toLowerCase()) {
         mainFunc();
 
         count++;
