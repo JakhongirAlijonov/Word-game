@@ -16,6 +16,7 @@ body {
     padding: 0;
     font-size: 24px;
     background: linear-gradient(244deg, #cade45, #bf54b1);
+    background-repeat: no-repeat;
 }
 
 .container {
@@ -39,6 +40,7 @@ body {
 
 .word {
     height: 40px;
+    user-select: none;
 }
 
 .form input {
@@ -65,4 +67,15 @@ body {
 
 .my-github:hover {
     color: orangered;
+}
+
+.footer-des {
+    margin-bottom: 0;
+}
+
+@media only screen and(max-width:400px) {
+    .container {
+        max-width: 390px;
+        padding: 10px;
+    }
 }
