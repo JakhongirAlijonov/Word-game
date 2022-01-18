@@ -74,6 +74,9 @@ body {
 }
 
 @media only screen and(max-width:393px) {
+    body {
+        max-width: 393px;
+    }
     .container {
         max-width: 383px;
         padding: 5px;
